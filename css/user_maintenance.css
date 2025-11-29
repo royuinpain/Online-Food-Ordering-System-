@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form input, .form select, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form input[type="file"] {
+    padding: 5px;
+}
+
+.form button {
+    padding: 12px 20px;
+    background-color: #705222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #5a411b;
+}
+
+.form button[type="reset"] {
+    background-color: #705222;
+}
+
+.form button[type="reset"]:hover {
+    background-color: #5a411b;
+}
+
+.form .upload img {
+    max-height: 150px;
+    margin-top: 10px;
+}
+
+.form .error {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.section-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container .upload {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.form-container .upload img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.form .radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.form .radio-group input[type="radio"] {
+    margin-right: 5px; 
+}
+
+.form .radio-group label {
+    display: flex;
+    align-items: center;
+    font-weight: normal; /* no bold inside the radio text */
+    gap: 5px;
+}
